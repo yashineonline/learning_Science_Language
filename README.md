@@ -103,7 +103,7 @@ Click to expand:
 ├── README.md
 ├── ROADMAP.md
 └── LICENSE
-'''
+```
 
 ## 🧑‍💻 Authors & Credits
 Built by Yashine Hazmatally Goolam Hossen (my family calls me "Az", hence the name langAz - also meaning language in Mauritian Creole), integrating insights from comparative grammar, polyglot workflows, and practical neuroscience. Inspired by the start of the Portuguese movie, "Papa ne comprend pas" being watched on Netflix (July 21, 2025) while coding this. 
