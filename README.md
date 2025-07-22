@@ -8,6 +8,32 @@ Built with free, open AI (LLMs like GPT-4o-mini), the app prioritizes human-cent
 
 ## 🚀 Why This Project?
 
+We thank Michael (Mikhail) Petrunin who did a good job already. This project is here to add on to what he has started and fill in gaps for this time and the future.
+
+As noted by language learning enthusiasts, linguist Michael Petrunin’s comparative grammar guides use tri‑ or multi‑lingual presentation (e.g. Spanish, Portuguese, French together). They are praised for structuring side‑by‑side comparisons and encouraging learners to notice differences and false friends.
+
+Mikhail's part:
+
+- Presents side-by-side grammar and vocabulary comparisons, a useful reference 
+
+- Advocates simultaneous study of all four languages 
+
+His work is reference-centric, not lesson- or flow-based. 
+ 
+ ### Where We Can Improve Petrunin’s Comparative Grammar of Spanish, Portuguese, Italian & French
+
+What we are to bring in:
+
+- Personalization: no ability to choose topics freely.
+
+- Dynamic, contextual examples tied to everyday science, math, life scenarios.
+
+- Interactive, multimodal experience: no audio, no quizzes, no spaced repetition.
+
+Our gap to fill:
+Create a learner-driven, topic-first, multi-Romance AI-powered system with scientific and real-world contextualization—not level-bound. 
+Generate tri-lingual lessons, audio, practice, and quizzes, all anchored in everyday science, health, ethics, physics, etc.
+
 This project:
 - Demonstrates cutting-edge use of GenAI and agentic workflows.
 - Trains multilingual reasoning through *sentence comparison*.
@@ -80,6 +106,23 @@ Click to expand:
 
 ## 🧑‍💻 Authors & Credits
 Built by Yashine Hazmatally Goolam Hossen (my family calls me "Az", hence the name langAz - also meaning language in Mauritian Creole), integrating insights from comparative grammar, polyglot workflows, and practical neuroscience. Inspired by the start of the Portuguese movie, "Papa ne comprend pas" being watched on Netflix (July 21, 2025) while coding this. 
+
+## Some Topics To Be Covered
+
+Driving and Safety (braking, awareness, heavy vehicles, rain)
+
+Cooking and Eating (cheese and wine, digestion, food order)
+
+House and Cleaning (dishwashing, lifting heavy things, organizing shelves)
+
+Walking and Movement (momentum, balance, slipping, posture)
+
+Helping Others (feeling peaceful, hormones, smiling)
+
+Daily Habits (sleeping in dark, sipping water, listening to music)
+
+
+
 
 
 
