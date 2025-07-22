@@ -79,3 +79,84 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+# Define some initial lesson themes and example data
+lessons = [
+    {
+        "topic": "driving",
+        "examples": [
+            {
+                "sentence_en": "I am driving to the city.",
+                "sentence_fr": "Je conduis vers la ville.",
+                "sentence_es": "Estoy conduciendo a la ciudad.",
+                "sentence_pt": "Estou dirigindo para a cidade.",
+                "verb_root": "to drive / conduire / conducir / dirigir",
+                "structure_notes": "Present continuous in ES/PT uses 'estar' + gerund; FR uses simple present.",
+                "pronunciation": {
+                    "fr": "con-du-ee",
+                    "es": "con-doo-thee-en-do (Spain) / con-doo-see-en-do (LatAm)",
+                    "pt": "djee-ree-zhen-doo"
+                }
+            }
+        ]
+    },
+    {
+        "topic": "digestion",
+        "examples": [
+            {
+                "sentence_en": "Digestion starts in the mouth.",
+                "sentence_fr": "La digestion commence dans la bouche.",
+                "sentence_es": "La digestión comienza en la boca.",
+                "sentence_pt": "A digestão começa na boca.",
+                "verb_root": "to start / commencer / comenzar / começar",
+                "structure_notes": "All use simple present. Gender of nouns differs across languages.",
+                "pronunciation": {
+                    "fr": "dee-zhe-styon",
+                    "es": "dee-hes-tyon",
+                    "pt": "djee-zhe-stão"
+                }
+            }
+        ]
+    },
+    {
+        "topic": "emotion",
+        "examples": [
+            {
+                "sentence_en": "I feel happy today.",
+                "sentence_fr": "Je me sens heureux aujourd’hui.",
+                "sentence_es": "Me siento feliz hoy.",
+                "sentence_pt": "Eu me sinto feliz hoje.",
+                "verb_root": "to feel / se sentir / sentirse / sentir-se",
+                "structure_notes": "Reflexive verbs in FR/ES/PT; EN does not use reflexive for 'feel'.",
+                "pronunciation": {
+                    "fr": "zhe muh sahn",
+                    "es": "meh syen-to",
+                    "pt": "ay-oo mee seen-too"
+                }
+            }
+        ]
+    }
+]
+
+# Create content folders and JSON lesson files
+base_path = "/mnt/data/content"
+os.makedirs(base_path, exist_ok=True)
+
+for lesson in lessons:
+    topic = lesson["topic"]
+    os.makedirs(os.path.join(base_path, topic), exist_ok=True)
+    with open(os.path.join(base_path, topic, "lesson.json"), "w", encoding="utf-8") as f:
+        json.dump(lesson, f, ensure_ascii=False, indent=2)
+
+os.listdir(base_path)  # Confirm created folders
+
+
+
+
+
+
+
+
+
+
